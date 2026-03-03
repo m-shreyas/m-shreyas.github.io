@@ -789,6 +789,8 @@ rdsc();
 const dotEl=document.getElementById('dot'),ringEl=document.getElementById('ring');
 let cx2=0,cy2=0,rx=0,ry=0;
 document.addEventListener('mousemove',e=>{cx2=e.clientX;cy2=e.clientY;dotEl.style.left=cx2+'px';dotEl.style.top=cy2+'px';dotEl.style.opacity='1';ringEl.style.opacity='1';},{passive:true});
+document.addEventListener('mouseleave',()=>{dotEl.style.opacity='0';ringEl.style.opacity='0';});
+document.addEventListener('mouseenter',()=>{dotEl.style.opacity='1';ringEl.style.opacity='1';});
 document.addEventListener('touchend',()=>{dotEl.style.opacity='0';ringEl.style.opacity='0';},{passive:true});
 document.addEventListener('touchcancel',()=>{dotEl.style.opacity='0';ringEl.style.opacity='0';},{passive:true});
 (function ac(){rx+=(cx2-rx)*.1;ry+=(cy2-ry)*.1;ringEl.style.left=rx+'px';ringEl.style.top=ry+'px';requestAnimationFrame(ac)})();
