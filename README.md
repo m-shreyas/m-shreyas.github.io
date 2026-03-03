@@ -14,9 +14,9 @@ Data Analyst portfolio built with vanilla HTML/CSS/JS. Features a Bloomberg-styl
 - 📱 Fully mobile responsive
 
 ## Stack
-Python · SQL · Power BI · Tableau · Excel · Pandas · Salesforce · React · FastAPI
+`Python` `SQL` `Power BI` `Tableau` `Excel` `Pandas` `Salesforce` `React` `FastAPI`
 
 ## Contact
-- 📧 mupparapusreyes@gmail.com
+- 📧 [mupparapusreyes@gmail.com](mailto:mupparapusreyes@gmail.com)
 - 💼 [LinkedIn](https://linkedin.com/in/shreyas-mupparapu)
 - 🌐 [Live App — BAD](https://data-analyzer.up.railway.app)
